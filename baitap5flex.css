@@ -69,7 +69,8 @@ header {
     font-weight: 300;
 } 
 .btn-success {
-    width: 42%;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 .btn {
     border: spoild 1px #00a974;
