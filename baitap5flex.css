@@ -185,38 +185,43 @@ header {
     flex-wrap: wrap;
     margin-left:100px;
     margin-right: 100px;  
+    padding-bottom: 50px;
+}
+.mt-5 {
+    flex:30%;
 }
 .menu-one {
-    width:400px;
     display: flex;
-    flex-direction: row;
-    margin-bottom:80px;
-    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.content {
+    margin-left: 20px;
 }
 p.menu-two {
     color:#212529;
+    font-size:16px;
 }
 .img {
     border-radius: 50%;
-    width: 25%;
-    height:25%;
+    width: 20%;
+    height:20%;
 }
 .h4 {
     color: #212529;
-    font-size:24px !important;
-    text-align: center;
+    font-size:22px !important;
     font-weight: 500 !important;
-    width:190px;
+    flex:50%;
 }
 .title {
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
 }
-.line {
+.menu-one .title .line {
     border:0;
     border-bottom: solid 1px #000000;
-    width: 22%;
+    flex:20%;
+    text-align: center;
 }
 /*time area*/
 .t-color {
@@ -301,8 +306,11 @@ p.menu-two {
     width: 100%;
     height: 50%;
 }
-.auto :hover {
-    background: rgba(0, 0, 0, 0.8) url("02.jpg");
+.bn-two:hover {
+    background: rgba(0, 0, 0, 0.50) url(02.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 .g-4 {
     display: flex;
